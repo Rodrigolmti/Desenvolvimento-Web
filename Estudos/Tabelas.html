@@ -1,0 +1,128 @@
+<!--O sgml abaixo idetifica a versão do html -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+  
+  <style>
+  .titulo {
+  background-color:gray;
+  }
+  </style>
+  
+	<title> tabelas </title>
+</head>
+<body>
+
+	<hr class="titulo">
+	<h1 align="center"> Tabelas </h1>
+	<hr>
+	
+	<table border=2>
+		<tr>
+			<td  width="25%"> width=25%</td>
+			<td align="middle" width="75%">width="75%"</td>
+		</tr>
+	</table>
+	
+	<h2> Utilizacao do atributo valign=top <h2>
+	<table border="2" cellpadding="2" rules=colors>
+	 <tr>
+		<td valign="top" rowspan="3"> Exemplo do uso rowspan</td>
+			<td>Celula 1</td>
+		</tr>
+		<tr>
+			<td>Celula 2</td>
+		</tr>
+		<tr>
+			<td>Celula 3</td>
+		</tr>
+	</table>
+	
+	<hr>
+	
+	<h2> Utilizacao do atributo valign=middle <h2>
+	<table border="2" cellpadding="2" rules=colors>
+	 <tr>
+		<td valign="middle" rowspan="3"> Exemplo do uso rowspan</td>
+			<td>Celula 1</td>
+		</tr>
+		<tr>
+			<td>Celula 2</td>
+		</tr>
+		<tr>
+			<td>Celula 3</td>
+		</tr>
+	</table>
+	
+	<hr>
+	
+	<h2> Utilizacao do atributo valign=bottom <h2>
+	<table border="2" cellpadding="2" rules=colors>
+	 <tr>
+		<td valign="bottom" rowspan="3"> Exemplo do uso rowspan</td>
+			<td>Celula 1</td>
+		</tr>
+		<tr>
+			<td>Celula 2</td>
+		</tr>
+		<tr>
+			<td>Celula 3</td>
+		</tr>
+	</table>
+	
+	<hr>
+	
+	<h2><font color="red"> Mesclando celulas </font></h2>
+	<h2> Mesclando linhas (colspan="3") </h2>
+		<table border="2" cellpadding="2" rules="none">
+		<tr>
+			<td colspan="3"> Exemplo do uso do colspan</td>
+		</tr>
+		<tr>
+			<td> celula1</td> <td> celula 2</td> <td> celula 3</td>
+			</tr>
+		</table>
+		
+	<hr>
+		
+	<h2> Mesclando colunas (rowspan=3) </h2>
+	<table border="2" cellpadding="2" rules="cols">
+		<tr>
+			<td rowspan="3"> Exemplo do uso do rowspan</td>
+			<td> celula 1</td>
+		</tr>
+		<tr>
+			<td> celula 2</td>
+		</tr>
+		<tr>
+			<td> Celula 3</td>
+		</tr>
+	</table>
+	
+	<hr>
+	
+	<h2><font color="red"> Utilizando tabelas como molduras</font>
+	<table border="2" cellpadding="2" rules="rows">
+	<CAPTION ALIGN=“BOTTOM”>TABELA 1</CAPTION>
+
+		<tr>
+			<td> <img src="images.jpg"> </td>
+		</tr>
+	</table>
+		
+	<hr>
+		
+	<H2><FONT COLOR="RED">INSERINDO IMAGEM DE FUNDO EM TABELAS </FONT></H2>
+	<TABLE BACKGROUND="background.jpg" BORDER=5 rules="cols">
+		<TR>
+			<TD>
+				<H1>Que tal um vôo agora? </H1>
+			</TD>
+		</TR>
+	</TABLE>
+
+ </body>
+</html>

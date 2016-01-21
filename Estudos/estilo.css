@@ -1,0 +1,12 @@
+p {
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+	background-color: #c0c0c0;
+	text-align: center;
+	padding: 10px 100px 5px 1px;
+}
+
+.xulipa {
+	 margin-top:-16px;	 
+}
